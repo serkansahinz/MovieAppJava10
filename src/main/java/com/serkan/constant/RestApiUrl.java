@@ -7,4 +7,5 @@ public class RestApiUrl {
     public final static String FINDALL="/Findall";
     public final static String FINDBYID="/Findbyid";
     public final static String SAVE="/save";
+    public final static String MOVIE="/movie";
 }

@@ -28,8 +28,10 @@ public class Movie {
     private Double rating;
     @Lob
     private String summary;
-    private LocalDate premiered;
+    private LocalDate premired;
     private String url;
     @ElementCollection
     private Set<Long> comments;
+    @ElementCollection
+    private Set<Long> favUsers;
 }
